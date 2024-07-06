@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cyberpsycho/static/css/main.c6a3ef44.css",
-    "main.js": "/cyberpsycho/static/js/main.66de41d4.js",
+    "main.js": "/cyberpsycho/static/js/main.3645c33e.js",
     "static/js/453.1407b060.chunk.js": "/cyberpsycho/static/js/453.1407b060.chunk.js",
     "static/media/spark.gif": "/cyberpsycho/static/media/spark.e729cab445e0851d0714.gif",
     "static/media/gif-banner.gif": "/cyberpsycho/static/media/gif-banner.19f74f8eb97dac97198d.gif",
@@ -30,11 +30,11 @@
     "static/media/background-white.webp": "/cyberpsycho/static/media/background-white.3cf0219ae62f08307a58.webp",
     "index.html": "/cyberpsycho/index.html",
     "main.c6a3ef44.css.map": "/cyberpsycho/static/css/main.c6a3ef44.css.map",
-    "main.66de41d4.js.map": "/cyberpsycho/static/js/main.66de41d4.js.map",
+    "main.3645c33e.js.map": "/cyberpsycho/static/js/main.3645c33e.js.map",
     "453.1407b060.chunk.js.map": "/cyberpsycho/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6a3ef44.css",
-    "static/js/main.66de41d4.js"
+    "static/js/main.3645c33e.js"
   ]
 }
