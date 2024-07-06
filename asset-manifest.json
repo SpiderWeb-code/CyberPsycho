@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/cyberpsycho/static/css/main.c6a3ef44.css",
+    "main.js": "/cyberpsycho/static/js/main.66de41d4.js",
+    "static/js/453.1407b060.chunk.js": "/cyberpsycho/static/js/453.1407b060.chunk.js",
+    "static/media/spark.gif": "/cyberpsycho/static/media/spark.e729cab445e0851d0714.gif",
+    "static/media/gif-banner.gif": "/cyberpsycho/static/media/gif-banner.19f74f8eb97dac97198d.gif",
+    "static/media/carte-paypal_com.glb": "/cyberpsycho/static/media/carte-paypal_com.338eca7529650bd7c3dc.glb",
+    "static/media/carte-telephone_com.glb": "/cyberpsycho/static/media/carte-telephone_com.ced267c1f2404934fc53.glb",
+    "static/media/carte-discord_com.glb": "/cyberpsycho/static/media/carte-discord_com.2b6308a820270fe3977f.glb",
+    "static/media/carte-github_com.glb": "/cyberpsycho/static/media/carte-github_com.949aadabd33ab22aad3f.glb",
+    "static/media/ball_white.gif": "/cyberpsycho/static/media/ball_white.9784263b6eb9be94b6d6.gif",
+    "static/media/computer-development.webp": "/cyberpsycho/static/media/computer-development.adcb92c0294514ab3a7b.webp",
+    "static/media/mignature-kasa.webp": "/cyberpsycho/static/media/mignature-kasa.1dbde4c52fcbfbbc637c.webp",
+    "static/media/sophie_bluel._mignature.webp": "/cyberpsycho/static/media/sophie_bluel._mignature.9e0633f0256ce4dbb960.webp",
+    "static/media/booki-mignature.webp": "/cyberpsycho/static/media/booki-mignature.2b7a295b379d7967216a.webp",
+    "static/media/cerisier-fond.webp": "/cyberpsycho/static/media/cerisier-fond.a53abefd098afc6bcf31.webp",
+    "static/media/panneau-contacte.glb": "/cyberpsycho/static/media/panneau-contacte.4246bfea7b84c2feb587.glb",
+    "static/media/panneau-portfolio.glb": "/cyberpsycho/static/media/panneau-portfolio.2ded6479fc15cee983dc.glb",
+    "static/media/panneau-propos.glb": "/cyberpsycho/static/media/panneau-propos.a1fa73b5397454919ec8.glb",
+    "static/media/panneau-tarifs.glb": "/cyberpsycho/static/media/panneau-tarifs.59b7bb2499356543a69f.glb",
+    "static/media/logo-cybertpsycho.webp": "/cyberpsycho/static/media/logo-cybertpsycho.0d2c4bb0f8bc9c5c59ae.webp",
+    "static/media/picture-border.webp": "/cyberpsycho/static/media/picture-border.433f0175e2cb8c04efc5.webp",
+    "static/media/logo-cybertpsycho-right.webp": "/cyberpsycho/static/media/logo-cybertpsycho-right.72980ae0dd1126615ed6.webp",
+    "static/media/logo-cybertpsycho-left.webp": "/cyberpsycho/static/media/logo-cybertpsycho-left.4268cae5d3c41cf18f8d.webp",
+    "static/media/cerisier.webp": "/cyberpsycho/static/media/cerisier.22db72c9b92c53918368.webp",
+    "static/media/bulls1.webp": "/cyberpsycho/static/media/bulls1.72988196e464c7d43d3f.webp",
+    "static/media/shoji-japonais-gauche.webp": "/cyberpsycho/static/media/shoji-japonais-gauche.80b4852a207c0b632db1.webp",
+    "static/media/shoji-japonais-droit.webp": "/cyberpsycho/static/media/shoji-japonais-droit.ae5e067507681671941c.webp",
+    "static/media/background-white.webp": "/cyberpsycho/static/media/background-white.3cf0219ae62f08307a58.webp",
+    "index.html": "/cyberpsycho/index.html",
+    "main.c6a3ef44.css.map": "/cyberpsycho/static/css/main.c6a3ef44.css.map",
+    "main.66de41d4.js.map": "/cyberpsycho/static/js/main.66de41d4.js.map",
+    "453.1407b060.chunk.js.map": "/cyberpsycho/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6a3ef44.css",
+    "static/js/main.66de41d4.js"
+  ]
+}
