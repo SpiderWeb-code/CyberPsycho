@@ -1,0 +1,29 @@
+.container-section-sectionsites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+    div{
+        display: flex;
+        border: 2px solid black;
+        article{
+            display: flex;
+            align-items: center;
+            background-color: white;
+            width: 35vw;
+            height: 35vw;
+            background-color: rgb(238, 238, 238);
+        }
+        button{
+            display: flex;
+            align-items: center;
+            background-color: burlywood;
+            color: white;
+            font-weight: 700;
+            border: none;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}

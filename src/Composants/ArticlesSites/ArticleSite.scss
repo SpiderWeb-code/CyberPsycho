@@ -1,0 +1,18 @@
+.articles-sites {
+    display: flex;
+    width: 30vw;
+    height: 23vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #FEAFC9;
+    cursor: pointer;
+    transition: box-shadow 2s; /* Transition sur la propriété box-shadow */
+}
+.articles-sites:hover {
+    box-shadow: 0 0 30px red; /* Changement de la couleur de l'ombre au survol */
+    transition: box-shadow 2s; /* Transition sur la propriété box-shadow */
+}
+.articles-sites img {
+    width: 100%;
+    border-radius: 10px;
+}

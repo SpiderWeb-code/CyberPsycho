@@ -1,0 +1,48 @@
+header{
+    display: flex;
+#container-header{
+    display: flex;
+    background-color: rgb(226, 221, 221);
+    height: 92px;
+    width: 100%;
+    .bulls{
+        width: 5%;
+        margin-left: 7vw;
+    }
+    .cerisier1{
+        margin-left: 7%;
+    }
+    .cerisier2{
+        margin-left: 1%;
+        transform: rotate(-180deg);
+    }
+    #header-3d-container{
+        margin-left: 14vw;
+    }
+    @media screen and (max-width: 1117px) {
+        #header-3d-container {
+          margin-left: 5vw;
+        }
+      }
+    @media screen and (max-width: 1022px) {
+        #header-3d-container {
+            margin: 0;
+            padding-left:20%;
+          }
+        .bulls{
+            display: none;
+        }
+        .cerisier1{
+            display: none;
+        }
+        .cerisier2{
+            display: none;
+        }
+    }
+    @media screen and (max-width: 830px) {
+        #header-3d-container {
+            padding-left:15%;
+          }
+    }
+}
+}
