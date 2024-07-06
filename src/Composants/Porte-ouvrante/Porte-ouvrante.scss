@@ -1,0 +1,60 @@
+.image {
+    position: absolute;
+    height: auto;
+    transition: transform 1s ease; /* animation de transition de 1 seconde */
+    width: 50%;
+    height: 87.8%;
+    @media screen and (max-width: 1440px) {
+        width: 49.7%;
+        height: 60%;
+    }
+    @media screen and (max-width: 1024px) {
+        width: 49.5%;
+        height: 49.5%;
+    }
+    @media screen and (max-width: 859px) {
+        width: 49.4%;
+        height: 40%;
+    }
+}
+.left-image {
+    float: left;
+    left: 0; /* Positionnement à gauche */
+    z-index: 1; /* Assure que l'image de gauche est au-dessus du texte */
+}
+
+.right-image {
+    float: right;
+    right: 0; /* Positionnement à droite */
+    z-index: 1; /* Assure que l'image de droite est au-dessus du texte */
+}
+#shoji-left{
+    border-top: 5px solid burlywood;
+    border-left: 5px solid burlywood;
+    border-bottom: 5px solid burlywood;
+    height: 86.5%;
+}
+#shoji-right{
+    border-top: 5px solid burlywood;
+    border-right: 5px solid burlywood;
+    border-bottom: 5px solid burlywood;
+    height: 86.5%;
+}
+.image-logo{
+    width: 25%;
+}
+#porte-logo-left{
+    padding-left: 25%;
+}
+#porte-logo-right{
+    padding-right: 25%;
+}
+.disappear-left {
+    transform: translateX(-100%); /* Déplace l'image de gauche vers la gauche de 100% de sa largeur */
+}
+.disappear-right {
+    transform: translateX(100%); /* Déplace l'image de droite vers la droite de 100% de sa largeur */
+}
+#text{
+    margin: 0;
+} 

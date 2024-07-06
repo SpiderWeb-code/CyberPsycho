@@ -1,0 +1,23 @@
+.container-section-descriptionsites{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 40vw;
+    background-color: rgb(226, 221, 221);
+    margin-top: 20px;
+    left: 4vw;
+    border: 3px solid black;
+    border-radius: 10px;
+    h2{
+        text-align: center;
+        @media screen and (max-width: 1440px) {
+            font-size: 1.5vw;
+        }
+    }
+    p{
+        text-align: center;
+        font-size: 1vw;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,28 @@
+.container-section-constructionsites{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 40vw;
+    background-color: rgb(226, 221, 221);
+    margin-top: 20px;
+    right: 4vw;
+    border: 3px solid black;
+    border-radius: 10px;
+    h2{
+        text-align: center;
+        @media screen and (max-width: 1440px) {
+            font-size: 1.5vw;
+        }
+    }
+    p{
+        text-align: center;
+        font-size: 0.9vw;
+        @media screen and (max-width: 1440px) {
+            font-size: 0.8vw;
+        }
+        @media screen and (max-width: 768px) {
+            font-size: 0.7vw;
+        }
+    }
+}

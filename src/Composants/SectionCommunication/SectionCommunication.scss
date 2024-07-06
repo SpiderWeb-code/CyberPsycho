@@ -1,0 +1,89 @@
+#section-communication {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    max-height: 45vw;
+    background-image: url("../images/background-white.webp");
+    background-repeat: repeat;
+    background-size: 5%;
+    padding: 100px 0 100px 0;
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(216, 216, 216);
+        box-shadow: 0px 5px 15px 9px black;
+        border-radius: 25px;
+        h2{
+            width: 100%;
+            text-align: center;
+            font-size: 3vw;
+            color: transparent; // Couleur du texte transparente
+            background: linear-gradient(to right, rgb(2, 192, 255), rgb(255, 145, 0)); // Dégradé de couleur de droite à gauche pour le texte
+            -webkit-background-clip: text; // Appliquer le dégradé de couleur sur le texte
+            background-clip: text; // Appliquer le dégradé de couleur sur le texte
+        }
+        .article-communication {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 55vw;
+            height: 12vw;
+            background-color: white;
+            box-shadow: 0px 10px 15px 0.5px black;
+            padding: 0px 20px 0px 20px;
+            border-radius: 25px;
+            i {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: transform 0.5s ease, font-size 0.5s ease; // Transition pour l'animation de rotation et la taille
+                font-size: 8vw; // Taille initiale de l'icône (grande)
+    
+                &:hover {
+                    transform: rotate(360deg); // Rotation de 360 degrés au survol
+                    font-size: 10vw; // Réglage de la taille de l'icône au survol (plus petite)
+                }
+            }
+    
+            .fa-discord {
+                color: aqua;
+            }
+            .fa-phone{
+                color: green;
+            }
+            .fa-paypal{
+                color: blue;
+            }
+        }
+        .container-comtexte{
+            width: 80vw;
+        }
+    }
+}
+
+
+#section-communication::before,
+#section-communication::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px; /* Largeur de l'ombre */
+    pointer-events: none; /* Empêcher l'interaction avec les pseudo-éléments */
+}
+
+#section-communication::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0) 50%);
+    box-shadow: inset 20px 0 10px -15px rgba(0, 0, 0, 1); /* Ombre interne gauche */
+}
+
+#section-communication::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0) 50%);
+    box-shadow: inset -20px 0 10px -15px rgba(0, 0, 0, 1); /* Ombre interne droite */
+}
